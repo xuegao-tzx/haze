@@ -125,7 +125,10 @@ poko {
 }
 
 baselineProfile {
-  filter { include("dev.chrisbanes.haze.*") }
+  filter {
+    include("dev.chrisbanes.haze.*")
+    include("dev.chrisbanes.haze.effect.*")
+  }
 }
 
 dependencies {
